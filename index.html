@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular notas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <header>
+            <div class="cabecalho">
+                <h1>SOMA NÚMEROS</h1>
+                <h6>Digite os números a serem somados</h6>
+            </div>
+        </header>
+        
+        <dl>     
+            <input type="number" id="num1" placeholder="Digite o primeiro numero">
+
+            <p><strong>+</strong></p>
+
+            <input type="number" id="num2" placeholder="Digite o segundo numero">
+
+            <button onclick="somaNumeros()">Somar</button>
+
+            <h2>RESULTADO</h2>
+            <input type="text" id="txtresultado" placeholder="O resultado aparecerá aqui" readonly>
+            
+            <footer>
+                <h3>Desenvolvido por Kauan</h3>
+            </footer>
+        </dl>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
