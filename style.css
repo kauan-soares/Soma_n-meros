@@ -1,66 +1,51 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-html{
-    background-color: rgb(60, 60, 60);
-}
-div{
     text-align: center;
-    width: 300px;
-    margin: 6px auto;
 }
-
+body{
+    background-color: #373838;
+    font-family: Arial, sans-serif;
+}
 header{
     text-align: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 400px;
+    height: 100px;
+    margin: 0 auto;
     margin-top: 12px;
     margin-bottom: 12px;
-    font-size: 28px;
-    background-color: white;
-    border-radius: 6px;
-
-}
-
-footer{
-    text-align: center;
-    margin-bottom: 12px;
-    font-size: 12px;
-    opacity: 0.4;
-    transition: opacity 200ms;
-}
-
-dl{
-    list-style: none;
-    margin: 20px 0;
+    color:rgb(68, 68, 68);
+    border-radius: 20px;
 }
 
 input{
-    height: 40px;
-    width: 200px;
-    align-items: center;
-    margin-bottom: 12px;
-    color: rgb(73,71,71);
-    border-radius: 6px;
-    text-align: center; 
+    text-align: center;
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-bottom: 10px;
 }
-
-p{
-    font-size: 25px;
-    color: white;
-}
-
 button{
-    height: 40px;
-    width: 200px;
-    align-items: center;
-    margin-bottom: 12px;
-    border-radius: 6px;
+    text-align: center;
+    background-color: #346e36;
     color: white;
-    background-color: green;
-    transition: background 400ms;
+    width: 100px;
+    height: 40px;
+    margin: 0px auto;
+    margin-bottom: 12px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 15px;
+    margin-top: 10px;
 }
 
 button:hover{
-    background: rgba(250, 248, 248, 0.376);
+    background-color: #17eb17;
+    cursor: pointer;
 }
+
+.operador{
+font-size: 30px;}
+
