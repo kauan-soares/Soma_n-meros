@@ -4,26 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Soma Números</title>
+    <title>Calcular Idade</title>
 </head>
 <body>
     <header>
-        <div class="cabecalho">
-         <h1>Soma Números</h1>
-         <p>Digite os números a serem somados:</p>
-         </div>
+        <h1>Calcular Idade</h1>
+        <p>Digite os dados solicitados</p>
     </header>
-        <div class="conteudo">
-            <dl>
-            <li><input type="number" id="num1" placeholder=" Digite o primeiro número"></li>
-            <li><p class="operador"><strong>+</strong></p></li>
-            <li><input type="number" id="num2" placeholder=" Digite o segundo número"></li>
-            <br>
-            <li><button onclick="somaNumeros()">Somar</button></li>   
-            <br>      
-            <input type="text" id="txtresultado" placeholder="O resultado aparecerá aqui" readonly>
-            </dl>
-        </div>   
+    <div class="dados">
+        <h3>Data de nascimento</h3>
+        <input type="date" id="dataNascimento">
+        <br>
+        <button id="calcular" onclick="calcularIdade()">Calcular</button>
+        <h3>Resultado</h3>
+        <input type="text" id="resultado" readonly>
+    </div>
+    <footer>
+        <p>Desenvolvido por Kauan</p>
+    </footer>
 <script src="script.js"></script>
 </body>
 </html>
